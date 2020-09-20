@@ -204,9 +204,3 @@ header .logo {
         display:inline-block;
     }
 }
-@media screen and (max-width: 725px)
-{
-  header .logo{
-    position:static;
-  }
-}
