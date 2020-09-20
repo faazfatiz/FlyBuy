@@ -1,0 +1,212 @@
+
+body{
+    padding:0px;
+    margin:0px;
+    text-align:center;
+}
+#home{
+    height:600px;
+    text-align: center;
+    background-image: url("background.jpg");
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navigation{
+    height:80px;
+}
+.feauture{
+    background:rgb(170, 178, 194);
+    height:1500x;
+    color:white;
+    display: flex;
+    flex-direction:row;
+}
+.feauture figure {
+    margin:10px 10px 10px 5px;;
+    width:200px;
+}
+.feauture figure img{
+    width:120px;
+    text-align: center;
+    border-radius:50%;
+    box-shadow: gray 0 0 10px;
+    border: 1px solid white;
+}
+
+li{
+    display: inline-block;
+    margin: 30px 25px 40px 0px;
+}
+
+header .logo {
+    display:inline-block;
+    height: 400px;
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-size:180px;
+    width: 800px;
+    text-indent: -9999999px;
+    position: absolute;
+    top:-30px;
+    left:560px;
+}
+.quote{
+    position:absolute;
+    margin-top:250px;
+    margin-left:150px;
+    padding:30px 20px;
+    font-size:2.5rem;
+}
+
+.navbar-brand{
+    font-size:4rem;
+    position:relative;
+    left:45px;
+    font-family:'sacramento';
+}
+.testimonial-text{
+    color:white;
+}
+#contact{
+    height:600px;
+    text-align:center;
+}
+#shop {
+    background-color: #ef8172;
+    height:500px;
+  }
+  
+  .testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .testimonial-image {
+    width: 20%;
+    border-radius:20%;
+    margin: 20px;
+  }
+  #features {
+    position: relative;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+  }
+  
+  .feature-box {
+    padding: 4.5%;
+    background-color: #ef8172;
+  }
+  
+  .icon {
+    color: lavenderblush;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: #ff4c68;
+  }
+ 
+  #press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+  }
+  
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  .second{
+    background-color:white;
+  }
+  
+  .btn .fas, .btn .fab, .btn .far {
+    margin-left: 3px;
+  }
+  .btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  .peach-gradient{
+    margin-top:30px;
+    margin-left:350px;
+  }
+  h6 {
+    line-height: 1.7;
+  }
+
+  footer.page-footer {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .btn.peach-gradient {
+    color: #fff !important;
+  }
+
+  .map-container-section {
+    overflow:hidden;
+    /* padding-bottom:56.25%; */
+    position:relative;
+    height:0;
+  }
+.map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+.card-body{
+  background-color:pink;
+  font-family:serif;
+}
+
+@media screen and (min-width: 800px){
+    .feauture{
+        background: white;
+    }
+}
+@media screen and (max-width: 640px)
+{
+    header .nobile{
+        display:inline-block;
+    }
+    header .desktop{
+        display: none;
+    }
+}
+@media screen and (max-width: 450px)
+{
+    .feauture{
+        display:inline-block;
+    }
+}
+@media screen and (max-width: 725px)
+{
+  header .logo{
+    position:static;
+  }
+}

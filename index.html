@@ -1,0 +1,461 @@
+<html>
+    <head>
+        <title>
+            MY COMPANY!!
+        </title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+        <!-- CSS Stylesheets -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- sacramento font-family-->
+        <link href='http://fonts.googleapis.com/css2?family=Sacramento&display=swap' rel="stylesheet">
+        <!-- Font Awesome -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+      
+        <!-- Bootstrap Scripts -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script>
+          new WOW().init();
+
+function init_map() {
+
+      var var_location = new google.maps.LatLng(40.725118, -73.997699);
+
+      var var_mapoptions = {
+        center: var_location,
+
+        zoom: 14
+      };
+
+      var var_marker = new google.maps.Marker({
+        position: var_location,
+        map: var_map,
+        title: "New York"
+      });
+
+      var var_map = new google.maps.Map(document.getElementById("map-container"),
+        var_mapoptions);
+
+      var_marker.setMap(var_map);
+
+    }
+
+    google.maps.event.addDomListener(window, 'load', init_map);
+        </script>
+      </head>     
+
+        <link href="favicon.ico" rel="icon">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+            <header>
+                <nav class="navbar bg-light fixed-top scrolling-navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="">FlyBuy</a>
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shop">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#location">Location</a>
+                      </li>
+                    </ul>
+            <li class="logo"><a href="home.html">FlyBuy</a></li>
+            </header>
+            <section id="home">
+                <p class="quote">Have New And Trending Outfits Now!!</p>
+            </section>
+            <section class="feauture" >
+                <div class="row">
+                <figure class="col-lg-1.5">
+                    <a href="mens.html"><img src="mens.jpg" alt="mens"></a>
+                    <figcaption>mens wear</figcaption>
+               </figure>
+               <figure class="col-lg-1.5">
+                <a href="ladies.html"><img src="l.jpg" alt="ladies"></a>
+                <figcaption>ladies wear</figcaption>
+           </figure>
+           <figure class="col-lg-1.5">
+             <img src="kids.jpg" alt="kids">
+             <figcaption>kids wear</figcaption>
+           </figure>
+           <figure class="col-lg-1.5">
+            <img src="casual.jpg" alt="casual">
+            <figcaption>casual wear</figcaption>
+          </figure>
+          <figure class="col-lg-1.5">
+            <img src="formal.jpg" alt="formals">
+            <figcaption>formal wear</figcaption>
+          </figure>
+       <figure class="col-lg-1.5">
+            <img src="festive.jpg" alt="festive">
+            <figcaption>festive wear</figcaption>
+        </figure>
+        <figure class="col-lg-1.5">
+            <img src="ladies.jpg" alt="material">
+            <figcaption>material</figcaption>
+        </figure>
+        <figure class="col-lg-1.5">
+            <img src="trending.jpg" alt="trending">
+            <figcaption>Trending</figcaption>
+        </figure>
+        <figure class="col-lg-1.5">
+            <img src="Vintage.jpg" alt="Vintage">
+            <figcaption>Vintage</figcaption>
+        </figure>
+        <figure class="col-lg-1.5">
+            <img src="Executive.jpg" alt="Executive">
+            <figcaption>Executive</figcaption>
+        </figure>
+        <figure class="col-lg-1.5">
+            <img src="kurti.jpg" alt="kurti">
+            <figcaption>kurtis</figcaption>
+        </figure>
+        <figure class="col-lg-1.5">
+            <img src="WinterCollection.jpg" alt="WinterCollection">
+            <figcaption>Winter Collection</figcaption>
+        </figure>
+
+       <figure class="col-lg-1.5">
+            <img src="Hijab.jpg" alt="Hijab">
+            <figcaption>Hijab</figcaption>
+        </figure>
+        <figure class="col-lg-1.5">
+            <img src="Babies.jpg" alt="Babies">
+            <figcaption>Babies</figcaption>
+        </figure>
+        </div>
+    </section>
+        <section class="colored-section" id="shop">
+
+            <div id="testimonial-carousel" class="carousel slide" data-rider="auto-play" data-pause="hover">
+              <div class="carousel-inner">
+                <div class="carousel-item active container-fluid">
+                    <img class="testimonial-image" src="testimonial1.jpg" alt="dress-section">
+                  </div>
+                <div class="carousel-item">
+                  <h2 class="testimonial-text">My dressing sense was not Good, but with FlyBuy's help, I've found the Outfits that suits me  Well. I think.</h2>
+                  <img class="testimonial-image" src="lady-img.jpg" alt="lady-profile">
+                  <em>Beverly, Illinois</em>
+                </div>
+                <div class="carousel-item">
+                    <img class="testimonial-image" src="testimonial2.jpg" alt="dress-section">
+                  </div>
+                  <div class="carousel-item">
+                    <h2 class="testimonial-text">I have found trending outfits in flybuy,so now i am a regular visitor</h2>
+                    <img class="testimonial-image" src="men2.jpg" alt="lady-profile">
+                    <em>John,busan</em>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="testimonial-image" src="testimonial3.jpg" alt="dress-section">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="testimonial-image" src="testimonial4.jpg" alt="dress-section">
+                  </div>
+                  <div class="carousel-item">
+                    <h2 class="testimonial-text">good service of FlyBuy made me a fan </h2>
+                    <img class="testimonial-image" src="lady2.webp" alt="lady-profile">
+                    <em>alexandra, Dubai</em>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="testimonial-image" src="testimonial5.jpg" alt="dress-section">
+                  </div>
+                  <div class="carousel-item">
+                    <h2 class="testimonial-text">Fashion Secret Of My Look!!</h2>
+                    <img class="testimonial-image" src="lady3.jpg" alt="lady-profile">
+                    <em>shelly, newyork</em>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="testimonial-image" src="testimonial6.jpg" alt="dress-section">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="testimonial-image" src="testimonial7.jpg" alt="dress-section">
+                  </div>
+                  <div class="carousel-item">
+                    <h2 class="testimonial-text">fashionable dresses in affordable prize!! Then What else Needed</h2>
+                    <img class="testimonial-image" src="men1.jpg" alt="review-section">
+                    <em>Sam,Autsralia</em>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="testimonial-image" src="testimonial8.jpg" alt="dress-section">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="testimonial-image" src="testimonial9.jpg" alt="dress-section">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="testimonial-image" src="testimonial10.jpg" alt="dress-section">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="testimonial-image" src="testimonial11.jpg" alt="dress-section">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="testimonial-image" src="testimonial12.jpg" alt="dress-section">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="testimonial-image" src="testimonial13.jpg" alt="dress-section">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="testimonial-image" src="testimonial14.jpg" alt="dress-section">
+                  </div>
+              </div>
+              <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>      
+          </section>
+        <section class="feautures second">
+          <div class="row">
+            <figure class="col-lg-1.5">
+               <img src="sharvani.jpg" alt="mens">
+                <figcaption>sharvani</figcaption>
+           </figure>
+           <figure class="col-lg-1.5">
+            <img src="kids trending.jpg" alt="kids"></a>
+            <figcaption>Kids Trending</figcaption>
+       </figure>
+       <figure class="col-lg-1.5">
+         <img src="summer fashion.jpg" alt="ladies">
+         <figcaption>summer fashion</figcaption>
+       </figure>
+       <figure class="col-lg-1.5">
+        <img src="simple wear.jpg" alt="casual">
+        <figcaption>simple wear</figcaption>
+      </figure>
+      <figure class="col-lg-1.5">
+        <img src="party wear.jpg" alt="formals">
+        <figcaption>party  wear</figcaption>
+      </figure>
+   <figure class="col-lg-1.5">
+        <img src="beach trends.jpg" alt="beach">
+        <figcaption>beach trends</figcaption>
+    </figure>
+    <figure class="col-lg-1.5">
+        <img src="groomwear.jpg" alt="material">
+        <figcaption>groom wear</figcaption>
+    </figure>
+    <figure class="col-lg-1.5">
+        <img src="kids suitor.jpg" alt="trending">
+        <figcaption>Trending</figcaption>
+    </figure>
+    <figure class="col-lg-1.5">
+        <img src="infantwear.jpg" alt="Vintage">
+        <figcaption>infant wear</figcaption>
+    </figure>
+    <figure class="col-lg-1.5">
+        <img src="businesscasual.jpg" alt="Executive">
+        <figcaption>business casual</figcaption>
+    </figure>
+    <figure class="col-lg-1.5">
+        <img src="frocks.jpg" alt="kurti">
+        <figcaption>frocks</figcaption>
+    </figure>
+    <figure class="col-lg-1.5">
+        <img src="pajamas.jpg" alt="pajamas">
+        <figcaption>pajamas</figcaption>
+    </figure>
+    </div>
+        </section>
+      <section id="feautures">
+
+        <div class="container-fluid">
+    
+          <div class="row">
+            <div class="feature-box col-lg-4">
+              <i class="icon fas fa-check-circle fa-4x"></i>
+              <h3 class="feature-title">Fashionable</h3>
+              <p>Fashion in your finger tips</p>
+            </div>
+    
+            <div class="feature-box col-lg-4">
+              <i class="icon fas fa-bullseye fa-4x"></i>
+              <h3 class="feature-title">Grand Collection</h3>
+              <p>We have all the Collections, the greatest Collection.</p>
+            </div>
+    
+            <div class="feature-box col-lg-4">
+              <i class="icon fas fa-heart fa-4x"></i>
+              <h3 class="feature-title">Affordable Prize.</h3>
+              <p>Find your desired one in affordable price or your money back.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <!--Main Navigation-->
+  
+
+      <section id="location">
+      <div id="map-container-demo-section" class="z-depth-1-half map-container-section mb-4" style="height: 500px">
+        <iframe src="https://maps.google.com/maps?q=Manhatan&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0"></iframe>
+      </div>
+    </section>
+
+  <!--Main Navigation-->
+
+  <!--Main Layout-->
+  <section id="contact">
+ 
+
+    <div class="container-fluid mb-5">
+
+      <!--Grid row-->
+      <div class="row" style="margin-top: -100px;">
+
+        <!--Grid column-->
+        <div class="col-md-12">
+
+          <div class="card pb-5">
+            <div class="card-body">
+
+              <div class="container">
+
+                <!--Section: Contact v.2-->
+                <section class="section">
+
+                  <!--Section heading-->
+                  <h2 class="contact font-weight-bold text-center h1 my-5">Contact us</h2>
+                  <!--Section description-->
+                  <p class="text-center grey-text mb-5 mx-auto w-responsive">The Oldest and best online shop in manhattan with over 10 years of excellence and innovation!<br>
+                  Our Univallad legacy in the online shopping sector made the group one of the leading online shopping sites in manhattan<br>
+                  We also offer an excellent online purchase experience to our customers</p>
+
+                  <div class="row pt-5">
+
+                    <!--Grid column-->
+                    <div class="col-md-8 col-xl-9">
+                      <form>
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                          <!--Grid column-->
+                          <div class="col-md-6">
+                            <div class="md-form">
+                              <input type="text" id="contact-name" class="form-control">
+                              <label for="contact-name" class="">Your name</label>
+                            </div>
+                          </div>
+                          <!--Grid column-->
+
+                          <!--Grid column-->
+                          <div class="col-md-6">
+                            <div class="md-form">
+                              <input type="text" id="contact-email" class="form-control">
+                              <label for="contact-email" class="">Your email</label>
+                            </div>
+                          </div>
+                          <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="md-form">
+                              <input type="text" id="contact-Subject" class="form-control">
+                              <label for="contact-Subject" class="">Subject</label>
+                            </div>
+                          </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                          <!--Grid column-->
+                          <div class="col-md-12">
+
+                            <div class="md-form">
+                              <textarea type="text" id="contact-message" class="md-textarea form-control" rows="3"></textarea>
+                              <label for="contact-message">Your message</label>
+                            </div>
+
+                          </div>
+                        </div>
+                        <!--Grid row-->
+
+                      </form>
+
+                      <div class="text-center text-md-left my-4">
+                        <a class=" btn peach-gradient">Send</a>
+                      </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 col-xl-3">
+                      <ul class="contact-icons text-center list-unstyled">
+                        <li>
+                          <i class="fas fa-map-marker fa-2x orange-text"></i>
+                          <p>Manhattan,New York,NY,USA</p>
+                        </li>
+
+                        <li>
+                          <i class="fas fa-phone fa-2x orange-text"></i>
+                          <p>+ 01 234 567 89</p>
+                        </li>
+
+                        <li>
+                          <i class="fas fa-envelope fa-2x orange-text"></i>
+                          <p>fathimazubair101@gmail.com</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <!--Grid column-->
+
+                  </div>
+
+                </section>
+                <!--Section: Contact v.2-->
+
+              </div>
+            </div>
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+      </div>
+
+    </div>
+
+ 
+  </section>
+  <!--Main Layout-->
+
+  <!--Footer-->
+  <footer class="page-footer pt-4 mt-4   grey lighten-3 text-center text-md-left">
+
+    <!--Copyright-->
+    <div class="footer-copyright text-center py-3 wow fadeIn" data-wow-delay="0.3s">
+      <div class="container-fluid">
+        &copy; 2020 Copyright:
+      </div>
+    </div>
+    <!--/Copyright-->
+
+  </footer>
+  <!--/Footer-->
+
+   
+    </body>
+
+</html> 
